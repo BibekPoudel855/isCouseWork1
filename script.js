@@ -1,4 +1,4 @@
-// npm install flag-icons
+
 //# or
 //yarn add flag-icons
 async function fetchData() {
@@ -8,7 +8,7 @@ async function fetchData() {
       console.log("error while parsing");
     } else {
       let data = await response.json();
-      return data;
+      console.log(data.matches[0].teams.team_1.flag);
     }
   } catch (error) {
     console.log(error);
