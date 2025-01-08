@@ -54,6 +54,7 @@ nav {
 }
 .nav-logo h1 {
   font-family: "Allison", serif;
+  font-size: 30px;
 }
 nav .nav-logo span {
   color: #0bcdf8;
@@ -115,5 +116,6 @@ nav .nav-link {
 /* right section  */
 .hero-right-section {
   width: 50%;
+  height: 600px;
   background-color: yellow;
 }
