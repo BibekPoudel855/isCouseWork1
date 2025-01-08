@@ -119,3 +119,46 @@ nav .nav-link {
   height: 600px;
   background-color: yellow;
 }
+/* newsletter section  */
+.newsletter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-color: #f1f1f1;
+}
+.subscribe-newsletter-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe-newsletter-content h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.subscribe-newsletter-content p{
+  font-size: 20px;
+  margin: 0 0 20px 0px;
+  color: #7a7a7a;
+}
+.subscribe-newsletter-form input {
+  padding: 10px 20px;
+  width: 300px;
+  margin-left: 20px;
+  border: none;
+  border-radius: 5px;
+}
+.subscribe-newsletter-form button {
+  padding: 10px 20px;
+  background-color: #0bcdf8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.7s ease;
+}
+.subscribe-newsletter-form button:hover {
+  background-color: #0b8cf8;
+}
+/* footer section  */
+
