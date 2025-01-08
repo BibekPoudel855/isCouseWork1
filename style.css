@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Allison&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap");
 /* pre-code for this webpage */
 * {
   margin: 0;
@@ -23,10 +24,11 @@ i {
   justify-content: center;
 }
 .container {
-  max-width: 1400px;
+  max-width: 1200px;
   margin-inline: auto;
 }
 body {
+
 }
 /* Marquee section */
 .marquee-top-scroll {
@@ -40,33 +42,78 @@ body {
 .marquee-top-scroll .marquee-outer-span {
   margin-right: 50px;
 }
-.marquee-outer-span span{
-    margin: 40px;
+.marquee-outer-span span {
+  margin: 40px;
 }
 /* NavBar */
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 50px;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
 }
-.nav-logo h1{
-    font-family: "Allison", serif
+.nav-logo h1 {
+  font-family: "Allison", serif;
 }
-nav .nav-logo span{
-    color: #0bcdf8;
+nav .nav-logo span {
+  color: #0bcdf8;
 }
-nav .nav-link{
-    width: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    font-weight: 600;
+nav .nav-link {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-weight: 600;
 }
-.nav-link a{
-    transition: 0.7s ease;
+.nav-link a {
+  transition: 0.7s ease;
 }
-.nav-link a:hover{
-    color: #0bcdf8;
-    text-decoration: underline;
+.nav-link a:hover {
+  color: #0bcdf8;
+  text-decoration: underline;
+}
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* left section  */
+.hero-left-content {
+  height: 600px;
+  width: 50%;
+  padding: 200px 0px;
+  /* background-color: red; */
+}
+.hero .hero-left-content h1 {
+  font-size: 60px;
+  font-family: "MuseoModerno", serif;
+  font-weight: 900;
+}
+.hero .hero-left-content p {
+  font-size: 30px;
+  font-weight: 500;
+  color: #7a7a7a;
+}
+.hero .hero-left-content button {
+  /* display: inline-block; */
+  padding: 18px 37px;
+  margin-top: 20px;
+  background-color: #0bcdf8;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  transition:all 0.7s ease;
+}
+
+.hero .hero-left-content button:hover {
+  background-color: #0b8cf8;
+  font-size: 21px;
+}
+/* right section  */
+.hero-right-section {
+  width: 50%;
+  background-color: yellow;
 }
