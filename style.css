@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+/* pre-code for this webpage */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+ul li {
+  list-style-type: none;
+}
+i {
+  font-size: 25px;
+  color: black;
+}
+.flex-box {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  max-width: 1400px;
+  margin-inline: auto;
+}
+body {
+}
+/* Marquee section */
+.marquee-top-scroll {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background-color: #f1f1f1;
+  font-size: 12px;
+  font-weight: 700;
+}
+.marquee-top-scroll .marquee-outer-span {
+  margin-right: 50px;
+}
+.marquee-outer-span span{
+    margin: 40px;
+}
+/* NavBar */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+.nav-logo h1{
+    font-family: "Allison", serif
+}
+nav .nav-logo span{
+    color: #0bcdf8;
+}
+nav .nav-link{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 600;
+}
+.nav-link a{
+    transition: 0.7s ease;
+}
+.nav-link a:hover{
+    color: #0bcdf8;
+    text-decoration: underline;
+}
