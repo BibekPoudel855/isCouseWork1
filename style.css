@@ -65,6 +65,7 @@ nav .nav-link {
   align-items: center;
   justify-content: space-evenly;
   font-weight: 600;
+  font-size: 20px;
 }
 .nav-link a {
   transition: 0.7s ease;
@@ -160,5 +161,7 @@ nav .nav-link {
 .subscribe-newsletter-form button:hover {
   background-color: #0b8cf8;
 }
+/* back to top  */
+
 /* footer section  */
 
