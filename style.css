@@ -21,6 +21,7 @@ i {
 }
 .flex-box {
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 .container {
@@ -28,12 +29,10 @@ i {
   margin-inline: auto;
 }
 body {
-
+  overflow-x: hidden;
 }
 /* Marquee section */
 .marquee-top-scroll {
-  display: flex;
-  align-items: center;
   height: 50px;
   background-color: #f1f1f1;
   font-size: 12px;
@@ -52,7 +51,7 @@ nav {
   justify-content: space-between;
   height: 60px;
 }
-.nav-logo h1 {
+.nav-logo h1 span {
   font-family: "Allison", serif;
   font-size: 30px;
 }
@@ -118,7 +117,7 @@ nav .nav-link {
 .hero-right-section {
   width: 50%;
   height: 600px;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 /* newsletter section  */
 .newsletter {
