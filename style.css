@@ -7,6 +7,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", serif;
+  scroll-behavior: smooth;
 }
 a {
   color: black;
@@ -55,11 +56,11 @@ nav {
   font-family: "Allison", serif;
   font-size: 30px;
 }
-nav .nav-logo span {
+.nav-logo span {
   color: #0bcdf8;
 }
 nav .nav-link {
-  width: 600px;
+  width: 700px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -72,6 +73,9 @@ nav .nav-link {
 .nav-link a:hover {
   color: #0bcdf8;
   text-decoration: underline;
+}
+.nav-link .sun{
+  display: none;
 }
 /* Hero Section */
 .hero {
@@ -161,6 +165,52 @@ nav .nav-link {
   background-color: #0b8cf8;
 }
 /* back to top  */
-
-/* footer section  */
-
+.back-to-top-anchor{
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  transition: all 0.7s ease;
+  background-color: black;
+  height:50px;
+}
+/* footer section main */
+#main-footer{
+  padding: 40px 0;
+  /* background-color: #1E1E1E; */
+}
+.footer-column-container{
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+}
+.footer-column h4{
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.footer-column ul li{
+  margin: 6px 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+.footer-column ul li a{
+  color: #f7f7f7;
+}
+.footer-column4 ul{
+  background-color: yellow;
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+.footer-column4 ul li a i{
+  color: white;
+}
+.footer-column1{
+  background-color: green;
+}
+.footer-column2{
+  background-color: blue;
+}
+.footer-column3{
+  background-color: skyblue;
+}

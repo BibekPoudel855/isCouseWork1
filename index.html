@@ -8,14 +8,26 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="style.css" />
+    <style>
+        .footer-logo{
+            margin: 0 0 20px 0;
+        }
+    </style>
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <!--////// top auto scroll marquee //////////-->
         <div class="marquee">
             <marquee class="marquee-top-scroll flex-box" behaviour="alternate" direction="left">
+                <span class="marquee-outer-span"><span>&#8226;</span>Shop Will Be Closed On Janaury 19 Due To
+                    Metting Of Our Staffs</span>
+                <span class="marquee-outer-span"></span>
+                <span class="marquee-outer-span"><span>&#8226;</span> 5 Years Of Warranty On All Watches</span>
+                <span class="marquee-outer-span"><span>&#8226;</span> Free Shipping All Over World</span>
+                <span class="marquee-outer-span"><span>&#8226;</span>Upto 5% Off Before Jan 19</span>
                 <span class="marquee-outer-span"><span>&#8226;</span>Shop Will Be Closed On Janaury 19 Due To
                     Metting Of Our Staffs</span>
                 <span class="marquee-outer-span"></span>
@@ -27,7 +39,7 @@
         <!--/////// nav bar  ////////////-->
         <nav class="container">
             <div class="nav-logo">
-                <h1> <span>Netch</span> Watches</h1>
+                <h1><span>Netch</span> Watches</h1>
             </div>
             <div class="nav-link">
                 <a href="#">Home</a>
@@ -35,13 +47,15 @@
                 <a href="#">Research</a>
                 <a href="#">Blog</a>
                 <a href="#">About Us</a>
+                <i class="fa-solid fa-moon moon dark-mode"></i>
+                <i class="fa-regular fa-sun sun"></i>
             </div>
         </nav>
     </header>
     <!--/////// main content /////////-->
     <main>
         <!--////// hero section ///////-->
-        <section class="hero container">
+        <section class="hero container" id="hero-container">
             <div class="hero-left-content">
                 <h1>Buy Watches</h1>
                 <p>Get Upto 5% Off On All Watches</p>
@@ -51,7 +65,8 @@
                 <img style=" height:600px; width:600px;" src="./assets/images/hero-img.png" alt="hero-image" />
             </div>
         </section>
-        <section></section>
+        <section>
+        </section>
         <section></section>
         <section></section>
         <section></section>
@@ -68,12 +83,71 @@
             </div>
         </section>
     </main>
-    <footer>
-        <div class="back-to-top">
-            <a href="#">Back To Top</a>
-        </div>
+    <footer style="background-color: black; color: white;">
+        <a href="#" class="back-to-top-anchor flex-box">
+            <div>
+                Back To Top
+            </div>
+        </a>
+        <hr>
+        <section id="main-footer" class="container" style="height: 500px;">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h1 style="color: white;"><span style="color: #0bcdf8; font-family: Allison,serif;">Netch</span>
+                        Watches</h1>
+                </div>
+                <div class="footer-column-container">
+                    <div class="footer-column1 footer-column">
+                        <h4>Our Information</h4>
+                        <ul>
+                            <li><a href="#">Nepal</a></li>
+                            <li><a href="#">Pokhara-1, Bagar</a></li>
+                            <li><a href="#">9745450000</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column2 footer-column">
+                        <h4>Column 1</h4>
+                        <ul>
+                            <li><a href="#">lorem</a></li>
+                            <li><a href="#">lorem</a></li>
+                            <li><a href="#">lorem</a></li>
+                            <li><a href="#">lorem</a></li>
+                            <li><a href="#">lorem</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column3 footer-column">
+                        <h4>Column 1</h4>
+                        <ul>
+                            <li><a href="#">lorem</a></li>
+                            <li><a href="#">lorem</a></li>
+                            <li><a href="#">lorem</a></li>
+                            <li><a href="#">lorem</a></li>
+                            <li><a href="#">lorem</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column4 footer-column">
+                        <h4>Social</h4>
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+                            <li><a href="#"><i class="fa-solid fa-x"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
     </footer>
     <script src="script.js"></script>
 </body>
-
 </html>
+<!-- <div class="footer-social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2022 Netch Watches. All Rights Reserved</p>
+            </div> -->
