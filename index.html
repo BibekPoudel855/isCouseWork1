@@ -11,9 +11,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="style.css" />
     <style>
-        .footer-logo{
-            margin: 0 0 20px 0;
-        }
     </style>
 </head>
 
@@ -47,8 +44,8 @@
                 <a href="#">Research</a>
                 <a href="#">Blog</a>
                 <a href="#">About Us</a>
-                <i class="fa-solid fa-moon moon dark-mode"></i>
-                <i class="fa-regular fa-sun sun"></i>
+                <img src="./assets/icons/dark_mode.png" alt="dark" id="dark-mode">
+                <img src="./assets/icons/light_mode.png" alt="light" id="light-mode">
             </div>
         </nav>
     </header>
@@ -62,7 +59,8 @@
                 <button id="shop-now">Shop Now</button>
             </div>
             <div class="hero-right-content">
-                <img style=" height:600px; width:600px;" src="./assets/images/hero-img.png" alt="hero-image" />
+                <!-- <img style=" height: ;" src="./assets/images/hero-img3.jpg" alt="hero-image" /> -->
+                <img style="height:600px; width:600px;" src="./assets/images/hero-img.png" alt="hero-image" />
             </div>
         </section>
         <section>
@@ -83,57 +81,66 @@
             </div>
         </section>
     </main>
-    <footer style="background-color: black; color: white;">
+    <footer style="background-color: #1E1E1E; color: white;">
         <a href="#" class="back-to-top-anchor flex-box">
             <div>
                 Back To Top
             </div>
         </a>
         <hr>
-        <section id="main-footer" class="container" style="height: 500px;">
+        <section id="main-footer" class="container">
             <div class="footer-content">
-                <div class="footer-logo">
-                    <h1 style="color: white;"><span style="color: #0bcdf8; font-family: Allison,serif;">Netch</span>
-                        Watches</h1>
-                </div>
                 <div class="footer-column-container">
+                    <div class="footer-logo">
+                        <h1><span>Netch </span>Watches</h1>
+                    </div>
                     <div class="footer-column1 footer-column">
                         <h4>Our Information</h4>
                         <ul>
-                            <li><a href="#">Nepal</a></li>
-                            <li><a href="#">Pokhara-1, Bagar</a></li>
-                            <li><a href="#">9745450000</a></li>
+                            <li>Nepal</li>
+                            <li>Pokhara-1, Bagar</li>
+                            <li>9745450000</li>
                         </ul>
                     </div>
                     <div class="footer-column2 footer-column">
-                        <h4>Column 1</h4>
+                        <h4>Help & Support</h4>
                         <ul>
-                            <li><a href="#">lorem</a></li>
-                            <li><a href="#">lorem</a></li>
-                            <li><a href="#">lorem</a></li>
-                            <li><a href="#">lorem</a></li>
-                            <li><a href="#">lorem</a></li>
+                            <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=bibek.poudel.a24@icp.edu.np">Account
+                                    Problem</a></li>
+                            <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=bibek.poudel.a24@icp.edu.np">Return
+                                    & Exchange</a></li>
+                            <li><a
+                                    href="https://mail.google.com/mail/?view=cm&fs=1&to=bibek.poudel.a24@icp.edu.np">Manual</a>
+                            </li>
+                            <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=bibek.poudel.a24@icp.edu.np">Track
+                                    Order</a></li>
+                            <li><a
+                                    href="https://mail.google.com/mail/?view=cm&fs=1&to=bibek.poudel.a24@icp.edu.np">Warranty</a>
+                            </li>
                         </ul>
                     </div>
                     <div class="footer-column3 footer-column">
-                        <h4>Column 1</h4>
+                        <h4>Quick Links</h4>
                         <ul>
-                            <li><a href="#">lorem</a></li>
-                            <li><a href="#">lorem</a></li>
-                            <li><a href="#">lorem</a></li>
-                            <li><a href="#">lorem</a></li>
-                            <li><a href="#">lorem</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Products</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Research</a></li>
+                            <li><a href="#">Contact</a></li>
                         </ul>
                     </div>
                     <div class="footer-column4 footer-column">
-                        <h4>Social</h4>
+                        <h4>Follow Us On</h4>
                         <ul>
-                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
-                            <li><a href="#"><i class="fa-solid fa-x"></i></a></li>
+                            <li><img src="./assets/icons/facebook.png" alt="facebook"></li>
+                            <li><img src="./assets/icons/instagram.png" alt="instagram"></li>
+                            <li><img src="./assets/icons/tiktok.png" alt="tiktok"></li>
+                            <li><img src="./assets/icons/x.png" alt="x"></li>
                         </ul>
                     </div>
+                </div>
+                <div class="footer-copyright-section">
+                    <p>&copy; 2022 Netch Watches. All Rights Reserved</p>
                 </div>
             </div>
         </section>
@@ -141,13 +148,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-<!-- <div class="footer-social-links">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2022 Netch Watches. All Rights Reserved</p>
-            </div> -->

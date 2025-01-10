@@ -1,12 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Allison&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap");
 /* pre-code for this webpage */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", serif;
+  font-family: "Trebuchet MS", "Arial", "Verdana", "Sans-serif", "serif";
   scroll-behavior: smooth;
 }
 a {
@@ -53,10 +51,9 @@ nav {
   height: 60px;
 }
 .nav-logo h1 span {
-  font-family: "Allison", serif;
-  font-size: 30px;
-}
-.nav-logo span {
+  font-family: "Brush Script MT", "Palace Script MT", "Arial", "sans-serif";
+  font-weight: 500;
+  font-size: 45px;
   color: #0bcdf8;
 }
 nav .nav-link {
@@ -68,15 +65,21 @@ nav .nav-link {
   font-size: 20px;
 }
 .nav-link a {
-  transition: 0.7s ease;
+  transition: 0.2s ease;
 }
 .nav-link a:hover {
   color: #0bcdf8;
-  text-decoration: underline;
 }
-.nav-link .sun{
+#dark-mode{
+  height: 30px;
+  cursor: pointer;
+}
+#light-mode{
+  height: 30px;
+  cursor: pointer;
   display: none;
 }
+
 /* Hero Section */
 .hero {
   display: flex;
@@ -92,7 +95,8 @@ nav .nav-link {
 }
 .hero .hero-left-content h1 {
   font-size: 60px;
-  font-family: "MuseoModerno", serif;
+  font-family: sans-serif;
+  font-family: "Lucida Grande", "Verdana", "Segoe UI", "Arial", sans-serif;
   font-weight: 900;
 }
 .hero .hero-left-content p {
@@ -110,12 +114,12 @@ nav .nav-link {
   font-weight: 600;
   border: none;
   border-radius: 5px;
-  transition:all 0.7s ease;
+  transition: all 0.4s ease;
 }
 
 .hero .hero-left-content button:hover {
   background-color: #0b8cf8;
-  font-size: 21px;
+  font-size: 20.2px;
 }
 /* right section  */
 .hero-right-section {
@@ -131,7 +135,7 @@ nav .nav-link {
   height: 200px;
   background-color: #f1f1f1;
 }
-.subscribe-newsletter-content{
+.subscribe-newsletter-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -141,7 +145,7 @@ nav .nav-link {
   font-size: 40px;
   font-weight: 700;
 }
-.subscribe-newsletter-content p{
+.subscribe-newsletter-content p {
   font-size: 20px;
   margin: 0 0 20px 0px;
   color: #7a7a7a;
@@ -165,52 +169,82 @@ nav .nav-link {
   background-color: #0b8cf8;
 }
 /* back to top  */
-.back-to-top-anchor{
+.back-to-top-anchor {
   color: white;
   font-size: 15px;
   font-weight: 500;
   transition: all 0.7s ease;
   background-color: black;
-  height:50px;
+  height: 50px;
 }
 /* footer section main */
-#main-footer{
+#main-footer {
   padding: 40px 0;
-  /* background-color: #1E1E1E; */
 }
-.footer-column-container{
+.footer-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 20px 0;
+}
+.footer-logo h1 span{
+  font-family: "Brush Script MT", "Palace Script MT", "Arial", "sans-serif";
+  font-weight: 500;
+  font-size: 45px;
+  color: #0bcdf8;
+}
+.footer-column-container {
   display: flex;
   justify-content: space-between;
-  background-color: red;
+  /* background-color: red; */
+  margin-bottom: 40px;
 }
-.footer-column h4{
+.footer-column h4 {
   margin-bottom: 10px;
   font-size: 16px;
   font-weight: 700;
+  width: 130px;
+  border-bottom: 3px solid #0bcdf8;
 }
-.footer-column ul li{
+.footer-column ul li {
   margin: 6px 0;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
+  color: gray;
+  transition: 0.3s ease;
+  cursor: pointer;
 }
-.footer-column ul li a{
-  color: #f7f7f7;
+.footer-column ul li a {
+  color: gray;
 }
-.footer-column4 ul{
-  background-color: yellow;
+.footer-column ul li:hover{
+  color: white;
+  transform: translateX(4px);
+}
+.footer-column ul li:hover a {
+  color: white;
+  transform: translate(4px);
+}
+/* column 4 only  */
+.footer-column4 ul {
   display: flex;
   justify-content: space-between;
   width: 200px;
 }
-.footer-column4 ul li a i{
-  color: white;
+.footer-column4 ul li img{
+  height: 35px;
+  opacity: 0.5;
 }
-.footer-column1{
-  background-color: green;
+.footer-column4 ul li img:hover{
+  opacity: 1;
 }
-.footer-column2{
-  background-color: blue;
+/* footer copyright section */
+.footer-copyright-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.footer-column3{
-  background-color: skyblue;
+.footer-copyright-section p{
+  font-size: 15px;
+  font-weight: 500;
 }
