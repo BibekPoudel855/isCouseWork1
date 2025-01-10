@@ -121,11 +121,41 @@ nav .nav-link {
   background-color: #0b8cf8;
   font-size: 20.2px;
 }
-/* right section  */
+/* right section hero  */
 .hero-right-section {
   width: 50%;
   height: 600px;
-  /* background-color: yellow; */
+}
+/* popular brand section  */
+
+
+
+
+/* explore netch section  */
+.explore-netch{
+  height: 800px;
+}
+.explore-netch>h1{
+  font-size: 30px;
+  font-weight: 700;
+  margin: 40px 0;
+}
+.explore-netch-card-cont{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  row-gap: 40px;
+  justify-content: center;
+}
+.explore-card img{
+  width: 385px;
+  height: 200px;
+  border-radius: 10px;
+}
+.explore-card h4{
+  font-size: 20px;
+  font-weight: 500;
+  margin: 20px 0;
 }
 /* newsletter section  */
 .newsletter {
@@ -169,6 +199,9 @@ nav .nav-link {
   background-color: #0b8cf8;
 }
 /* back to top  */
+footer{
+  margin-top: 40px;
+}
 .back-to-top-anchor {
   color: white;
   font-size: 15px;
