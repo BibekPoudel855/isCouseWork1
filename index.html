@@ -39,8 +39,6 @@
         <a href="#">Research</a>
         <a href="#">Blog</a>
         <a href="#">About Us</a>
-        <img src="./assets/icons/dark_mode.png" alt="dark" id="dark-mode" />
-        <img src="./assets/icons/light_mode.png" alt="light" id="light-mode" />
       </div>
     </nav>
   </header>
@@ -51,7 +49,7 @@
       <div class="hero-left-content">
         <h1>Buy Watches</h1>
         <p>Get Upto 5% Off On All Watches</p>
-        <button id="shop-now">Shop Now</button>
+        <button id="shop-now" onclick="shopNowButton()">Shop Now</button>
       </div>
       <div class="hero-right-content">
         <!-- <img style=" height: ;" src="./assets/images/hero-img3.jpg" alt="hero-image" /> -->
@@ -160,80 +158,148 @@
       </div>
     </section>
   </main>
-
+  
   <!--//////// footer section /////// -->
-  <footer style="background-color: #1e1e1e; color: white">
+  <footer>
     <a href="#" class="back-to-top-anchor flex-box">
       <div>Back To Top</div>
     </a>
     <hr />
-    <section id="main-footer" class="container">
-      <div class="footer-content">
-        <div class="footer-column-container">
-          <div class="footer-logo">
-            <h1><span>Netch </span>Watches</h1>
-          </div>
-          <div class="footer-column1 footer-column">
-            <h4>Our Information</h4>
-            <ul>
-              <li>Nepal</li>
-              <li>Pokhara-1, Bagar</li>
-              <li>9745450000</li>
-            </ul>
-          </div>
-          <div class="footer-column2 footer-column">
-            <h4>Help & Support</h4>
-            <ul>
-              <li>
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bibek.poudel.a24@icp.edu.np">Account Problem</a>
-              </li>
-              <li>
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bibek.poudel.a24@icp.edu.np">Return &
-                  Exchange</a>
-              </li>
-              <li>
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bibek.poudel.a24@icp.edu.np">Manual</a>
-              </li>
-              <li>
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bibek.poudel.a24@icp.edu.np">Track Order</a>
-              </li>
-              <li>
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bibek.poudel.a24@icp.edu.np">Warranty</a>
-              </li>
-            </ul>
-          </div>
-          <div class="footer-column3 footer-column">
-            <h4>Quick Links</h4>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Products</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Research</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
-          <div class="footer-column4 footer-column">
-            <h4>Follow Us On</h4>
-            <ul>
-              <li>
-                <img src="./assets/icons/facebook.png" alt="facebook" />
-              </li>
-              <li>
-                <img src="./assets/icons/instagram.png" alt="instagram" />
-              </li>
-              <li><img src="./assets/icons/tiktok.png" alt="tiktok" /></li>
-              <li><img src="./assets/icons/x.png" alt="x" /></li>
-            </ul>
-          </div>
-        </div>
-        <div class="footer-copyright-section">
-          <p>&copy; 2025 Netch Watches. All Rights Reserved</p>
-        </div>
+    <div class="footer-column-container container">
+
+      <div class="footer-logo">
+        <h1><span>Netch </span>Watches</h1>
       </div>
-    </section>
+
+      <div class="footer-column1 footer-column">
+        <h4>Our Information</h4>
+        <a href="#">
+          <p>Nepal</p>
+        </a>
+        <a href="#">
+          <p>Pokhara-1, Bagar</p>
+        </a>
+        <a href="#">
+          <p>9745450000</p>
+        </a>
+      </div>
+
+      <div class="footer-column2 footer-column">
+        <h4>Help & Support</h4>
+        <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=netch@gmail.com">Account Problem</a></p>
+        <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=netch@gmail.com">Return &
+            Exchange</a></p>
+        <p> <a href="https://mail.google.com/mail/?view=cm&fs=1&to=netch@gmail.com">Manual</a></p>
+        <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=netch@gmail.com">Track Order</a></p>
+        <p> <a href="https://mail.google.com/mail/?view=cm&fs=1&to=netch@gmail.com">Warranty</a></p>
+      </div>
+
+      <div class="footer-column3 footer-column">
+        <h4>Quick Links</h4>
+        <p><a href="#">Home</a></p>
+        <p><a href="#">Products</a></p>
+        <p><a href="#">Blog</a></p>
+        <p><a href="#">Research</a></p>
+        <p><a href="#">Contact</a></p>
+      </div>
+      <div class="footer-column4 footer-column">
+        <h4>Follow Us On</h4>
+        <img src="./assets/icons/facebook.png" alt="facebook" />
+        <img src="./assets/icons/instagram.png" alt="instagram" />
+        <img src="./assets/icons/tiktok.png" alt="tiktok" />
+        <img src="./assets/icons/x.png" alt="x" />
+      </div>
+    </div>
+    <p class="copy-right-para">&copy; 2025 Netch Watches. All Rights Reserved</p>
   </footer>
   <script src="script.js"></script>
-  <input type="text" id="dark-mode-input" />
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <section id="main-footer" class="container">
+  <div class="footer-content">
+    <div class="footer-column-container">
+      <div class="footer-logo">
+        <h1><span>Netch </span>Watches</h1>
+      </div>
+      <div class="footer-column1 footer-column">
+        <h4>Our Information</h4>
+        <ul>
+          <li>Nepal</li>
+          <li>Pokhara-1, Bagar</li>
+          <li>9745450000</li>
+        </ul>
+      </div>
+      <div class="footer-column2 footer-column">
+        <h4>Help & Support</h4>
+        <ul>
+          <li>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bibek.poudel.a24@icp.edu.np">Account Problem</a>
+          </li>
+          <li>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bibek.poudel.a24@icp.edu.np">Return &
+              Exchange</a>
+          </li>
+          <li>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bibek.poudel.a24@icp.edu.np">Manual</a>
+          </li>
+          <li>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bibek.poudel.a24@icp.edu.np">Track Order</a>
+          </li>
+          <li>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bibek.poudel.a24@icp.edu.np">Warranty</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-column3 footer-column">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Research</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-column4 footer-column">
+        <h4>Follow Us On</h4>
+        <ul>
+          <li>
+            <img src="./assets/icons/facebook.png" alt="facebook" />
+          </li>
+          <li>
+            <img src="./assets/icons/instagram.png" alt="instagram" />
+          </li>
+          <li><img src="./assets/icons/tiktok.png" alt="tiktok" /></li>
+          <li><img src="./assets/icons/x.png" alt="x" /></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-copyright-section">
+      <p>&copy; 2025 Netch Watches. All Rights Reserved</p>
+    </div>
+  </div>
+</section> -->
