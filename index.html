@@ -4,6 +4,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Buy Your Next Luxury Watch from Netch Watches. You Can Get Upto 5% Discount On Any Watches. We Will Deliver Across World." />
+  <meta name="keywords"
+    content="Watch Ecommerce, Rolex, Watch, Netch Watches, Buy Watch, Smart Watch, Skeleton Watch, Netch" />
+  <meta name="author" content="Bibek Poudel">
   <title>Netch Watches</title>
   <link rel="stylesheet" href="style.css" />
   <style></style>
@@ -49,10 +54,9 @@
       <div class="hero-left-content">
         <h1>Buy Watches</h1>
         <p>Get Upto 5% Off On All Watches</p>
-        <button id="shop-now" onclick="shopNowButton()">Shop Now</button>
+        <button id="shop-now">Shop Now</button>
       </div>
       <div class="hero-right-content">
-        <!-- <img style=" height: ;" src="./assets/images/hero-img3.jpg" alt="hero-image" /> -->
         <img style="height: 600px; width: 600px" src="./assets/images/hero-img.png" alt="hero-image" />
       </div>
     </section>
@@ -85,7 +89,7 @@
               <p>$6300</p>
               <del>$12000</del>
             </div>
-            <button>Buy</button>
+            <button onclick="buyNowButton()">Buy</button>
           </div>
         </div>
 
@@ -98,7 +102,7 @@
               <p>$3300</p>
               <del>$2000</del>
             </div>
-            <button>Buy</button>
+            <button onclick="buyNowButton()">Buy</button>
           </div>
         </div>
 
@@ -110,7 +114,7 @@
               <p>$4300</p>
               <del>$20000</del>
             </div>
-            <button>Buy</button>
+            <button onclick="buyNowButton()">Buy</button>
           </div>
         </div>
       </div>
@@ -152,8 +156,8 @@
         <h2>Subscribe to Our Newsletter</h2>
         <p>Get Latests updates and special offers on your Mail</p>
         <div class="subscribe-newsletter-form">
-          <input type="email" placeholder="Enter Your Email" />
-          <button>Subscribe</button>
+          <input type="email" placeholder="Enter Your Email" id="newsletter-input" />
+          <button id="newsletter-button" onclick="newsLetterValidation()">Subscribe</button>
         </div>
       </div>
     </section>
