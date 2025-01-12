@@ -3,8 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Trebuchet MS", "Arial", "Verdana", "Sans-serif", "serif";
   scroll-behavior: smooth;
+  font-family: "Trebuchet MS", "Arial", "Verdana", "Sans-serif", "serif";
 }
 a {
   color: black;
@@ -112,8 +112,6 @@ nav .nav-link {
   height: 600px;
 }
 /* popular brand section  */
-.popular-brands {
-}
 .popular-brands > h1 {
   font-size: 30px;
   font-weight: 700;
@@ -186,7 +184,7 @@ nav .nav-link {
 .explore-netch {
   margin-bottom: 20px;
 }
-.explore-netch > h1 {
+.explore-netch h1 {
   font-size: 30px;
   font-weight: 700;
   margin: 40px 0;
@@ -218,7 +216,6 @@ nav .nav-link {
 .subscribe-newsletter-content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 .subscribe-newsletter-content h2 {
@@ -290,9 +287,4 @@ footer {
 .footer-column4 img {
   height: 30px;
   margin-right: 10px;
-}
-/* footer copyright section */
-.copy-right-para {
-  text-align: center;
-  padding-bottom: 20px;
 }
