@@ -18,14 +18,14 @@ function newsLetterValidation() {
   var newsLetterInputValue = newsLetterInput.value;
   console.log(newsLetterInputValue);
 
-  if (newsLetterInputValue == "") {
+  if ( newsLetterInputValue.trim() == " ") {
     alert("Input cant be Empty");
-  } else if (newsLetterInputValue.length < 8) {
-    alert("Not valid Mail length");
-  } else if (!newsLetterInputValue.includes("@")) {
-    alert("Not valid Mail");
-  }else{
-    alert("thank you");
   }
-
+  // } else if (newsLetterInputValue.length < 8) {
+  //   alert("Not valid Mail length");
+  // } else if (!newsLetterInputValue.includes("@")) {
+  //   alert("Not valid Mail");
+  // }else{
+  //   alert("thank you");
+  // }
 }

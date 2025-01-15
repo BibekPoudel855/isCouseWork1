@@ -131,12 +131,22 @@ nav .nav-link {
   width: 222px;
   background-color: #f1f1f1;
   border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.all-brand-div:hover {
+  color: #0bcdf8;
+  cursor: pointer;
 }
 /* new in store section  */
 .new-in-store h1 {
   font-size: 30px;
   font-weight: 700;
   margin: 40px 0;
+}
+.new-in-store-up-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .new-store-card-container {
   display: flex;
@@ -179,6 +189,7 @@ nav .nav-link {
 }
 .new-in-store .card-details button:hover {
   background-color: #0b8cf8;
+  cursor: pointer;
 }
 /* explore netch section  */
 .explore-netch {
@@ -205,6 +216,75 @@ nav .nav-link {
   font-size: 20px;
   font-weight: 500;
   margin: 20px 0;
+  transition: all 0.3s ease;
+}
+.explore-card h4:hover {
+  color: #0bcdf8;
+  cursor: pointer;
+}
+/* research blog section  */
+.research-blog-container{
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+.research-blog-container h1{
+  font-size: 30px;
+  border-bottom: 3px solid #0bcdf8;
+  width: 95%;
+}
+.research-blog-container p{
+  font-size: 20px;
+  color: #7a7a7a;
+  margin: 10px 0;
+}
+.research-blog-container a{
+  font-size: 20px;
+  color: #0bcdf8;
+  text-decoration: underline;
+}
+.research-blog-left-content{
+  width: 50%;
+}
+.research-blog-right-content{
+  width: 50%;
+}
+/* about us section  */
+.about-us {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.home-about-left-content {
+  height: 300px;
+  width: 50%;
+  padding-right: 20px;
+}
+.home-about-left-content h1 {
+  font-size: 30px;
+  border-bottom: 3px solid #0bcdf8;  
+  width: 95%;
+}
+.home-about-texts{
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.home-about-left-content p {
+  color: #7a7a7a;
+  margin: 10px 0;
+}
+.home-about-left-content a{
+  color: #0bcdf8;
+  text-decoration: underline;
+}
+.home-about-right-content {
+  height: 300px;
+  width: 50%;
+}
+.home-about-right-content img {
+  height: 100%;
+  width: 100%;
 }
 /* newsletter section  */
 .newsletter {
