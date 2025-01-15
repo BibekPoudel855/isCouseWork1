@@ -16,9 +16,16 @@ let buyNowButton = () => {
 //newsletter form validation
 function newsLetterValidation() {
   var newsLetterInputValue = newsLetterInput.value;
-  if (newsLetterInputValue.length == "") {
+  console.log(newsLetterInputValue);
+
+  if (newsLetterInputValue == "") {
     alert("Input cant be Empty");
+  } else if (newsLetterInputValue.length < 8) {
+    alert("Not valid Mail length");
+  } else if (!newsLetterInputValue.includes("@")) {
+    alert("Not valid Mail");
   }else{
     alert("thank you");
   }
+
 }
