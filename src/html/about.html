@@ -6,8 +6,8 @@
   <link rel="stylesheet" href="../css/style.css">
   <title>About Us</title>
   <style>
-    input {
-      margin: 5px;
+    form {
+      margin: 10px;
     }
 
     /* CSS_PART */
@@ -18,37 +18,11 @@
       align-items: center;
       flex-direction: column;
       background-size: cover;
+      gap: 20px;
       background-position: center;
       color: #ffffff;
-    }
-
-    .about-section.section-content {
-      width: 100%;
-      display: flex;
-      align-items: flex-start
-    }
-
-    .About-section {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 20px;
       padding: 20px;
       background-color: #001F3F;
-    }
-
-    .text-content {
-      flex: 1;
-      padding: 5px;
-      border-radius: 8px;
-      width: 40%
-    }
-
-    .AboutUS {
-      display: inline-block;
-      padding: 10px 20px;
-      padding: 20px;
-      text-align: center;
     }
 
     .green-line {
@@ -86,16 +60,6 @@
       background: color #333;
       background-color: #FF6A00;
     }
-
-    .members {
-      grid-template-rows: auto auto;
-      /*Defines the size of each row in grid container*/
-      grid-template-columns: repeat(3, 1fr);
-      background-size: cover;
-      background-position: center;
-
-    }
-
     /* Feedback-content */
     #Feedback-content {
       display: flex;
@@ -104,12 +68,10 @@
       /*changes the layout direction of flex items from the default horizontal (row) to vertical (column).*/
       margin-bottom: 15px;
     }
-
     .main-feedback {
       color: #006400;
       background-color: #add8e6;
     }
-
     /* CSS PART END */
   </style>
 </head>
@@ -150,7 +112,7 @@
   <section class="About-section">
 
     <h1>About Us</h1>
-    <div class="green-line "></div>
+    <div class="green-line"></div>
     <br>
     <b>ABOUT NETCH</b>
     <p> Founded in 2024, Netch is a Global-oriented brand dedicated to solving every customer’s needs.
@@ -253,7 +215,7 @@
   </div>
   <!--/////// Feedback Part  ////////////-->
   <div class="main-feedback">
-    <div class="Feedback-name">
+    <div class="Feedback-name" style="margin: 8px;">
       <b>Feedback Form</b>
       <p>Thank you for choosing Netch as your watch mate. We are here to fulfill your watch needs,<br>
         and your satisfaction after wearing our product is our top priority. <br>
