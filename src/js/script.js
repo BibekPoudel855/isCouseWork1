@@ -45,9 +45,9 @@ function validateForm() {
   const suggestion = document.getElementById("suggestion").value; //Select HTML elemens with the id attribute set to "Suggestion"//
   console.log(firstname, lastname, email, suggestion); //It is used for debugging or viewing variable values//
 
-  if (firstname == "" || lastname == "" || suggestion == "") {
-    alert("Firstname cannot be empty.");
+  if (firstname == "" || lastname == "" || suggestion == "" || email=="") {
+    alert("Input cannot be empty.");
   } else {
-    alert("Form valid");
+    alert("Thank you");
   }
 }
