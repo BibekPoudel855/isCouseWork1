@@ -15,7 +15,7 @@ function shopNowButtonEvent() {
 
 // buyNow Button
 let buyNowButton = () => {
-  window.open("https://www.bibekpoudel.info.np");
+  window.open("./src/html/product.html");
 };
 
 //newsletter input field validation
