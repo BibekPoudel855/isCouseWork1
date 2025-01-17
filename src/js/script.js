@@ -10,7 +10,7 @@ console.log(newsLetterMessageP);
 shopNowButton.onclick = shopNowButtonEvent;
 function shopNowButtonEvent() {
   console.log("click");
-  open("https://www.bibekpoudel.info.np");
+  open("./src/html/product.html");
 }
 
 // buyNow Button
