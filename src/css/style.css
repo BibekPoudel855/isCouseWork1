@@ -13,10 +13,6 @@ a {
 ul li {
   list-style-type: none;
 }
-i {
-  font-size: 25px;
-  color: black;
-}
 .flex-box {
   display: flex;
   align-items: center;
