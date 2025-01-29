@@ -83,6 +83,9 @@ footer {
   font-size: 45px;
   color: #0bcdf8;
 }
+#footer-logo-a{
+  color: white;
+}
 /* footer columns  */
 .footer-column-container {
   display: flex;
@@ -100,7 +103,12 @@ footer {
   border-bottom: 3px solid #0bcdf8;
 }
 /* column 4 only  */
-.footer-column4 img {
+.footer-column4 a img {
   height: 30px;
   margin-right: 10px;
+}
+/*footer copyright section*/
+footer .copy-right-para{
+  text-align: center;
+  padding-bottom: 20px;
 }

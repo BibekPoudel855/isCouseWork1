@@ -7,15 +7,14 @@ let newsLetterMessageP = document.getElementById(
 );
 console.log(newsLetterMessageP);
 //shop now button function
-shopNowButton.onclick = shopNowButtonEvent;
 function shopNowButtonEvent() {
   console.log("click");
   open("./src/html/product.html");
 }
 
 // buyNow Button
-let buyNowButton = () => {
-  window.open("./src/html/product.html");
+function buyNowButton() {
+  open("./src/html/product.html");
 };
 
 //newsletter input field validation
@@ -37,13 +36,13 @@ function newsLetterValidation() {
   }
 }
 // About us page
-//Feedback-Form validation//
+//Feedback-Form validation
 function validateForm() {
-  const firstname = document.getElementById("firstname").value; //Select HTML elemens with the id attribute set to "firstname"//
-  const lastname = document.getElementById("lastname").value; //Select HTML elemens with the id attribute set to "lastname"//
-  const email = document.getElementById("Email").value; //Select HTML elemens with the id attribute set to "Email"//
-  const suggestion = document.getElementById("suggestion").value; //Select HTML elemens with the id attribute set to "Suggestion"//
-  console.log(firstname, lastname, email, suggestion); //It is used for debugging or viewing variable values//
+  const firstname = document.getElementById("firstname").value; //Select HTML elemens with the id attribute set to "firstname"
+  const lastname = document.getElementById("lastname").value; //Select HTML elemens with the id attribute set to "lastname"
+  const email = document.getElementById("Email").value; //Select HTML elemens with the id attribute set to "Email"
+  const suggestion = document.getElementById("suggestion").value; //Select HTML elemens with the id attribute set to "Suggestion"
+  console.log(firstname, lastname, email, suggestion); //It is used for debugging or viewing variable values
 
   if (firstname == "" || lastname == "" || suggestion == "" || email=="") {
     alert("Input cannot be empty.");
