@@ -2,21 +2,17 @@
 //selection of element
 let shopNowButton = document.getElementById("shop-now");
 let newsLetterInput = document.getElementById("newsletter-input");
-let newsLetterMessageP = document.getElementById(
-  "message-for-newsletter-validation"
-);
+let newsLetterMessageP = document.getElementById("message-for-newsletter-validation");
 console.log(newsLetterMessageP);
 //shop now button function
 function shopNowButtonEvent() {
   console.log("click");
   open("./src/html/product.html");
 }
-
 // buyNow Button
 function buyNowButton() {
   open("./src/html/product.html");
 };
-
 //newsletter input field validation
 function newsLetterValidation() {
   var newsLetterInputValue = newsLetterInput.value;
@@ -45,7 +41,9 @@ function validateForm() {
   console.log(firstname, lastname, email, suggestion); //It is used for debugging or viewing variable values
 
   if (firstname == "" || lastname == "" || suggestion == "" || email=="") {
-    alert("Input cannot be empty.");
+    alert("Input cannot be empty");
+  } if(firstname.length <= 3 || lastname.length <= 3 || email.length < 10){
+    alert("Enter Valid Data");
   } else {
     alert("Thank you");
   }
