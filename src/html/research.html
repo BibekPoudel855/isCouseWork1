@@ -1,6 +1,7 @@
 <!--//research page//-->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title> netch watches </title>
   <meta charset="UTF-8">
@@ -10,11 +11,12 @@
   <link rel="stylesheet" href="../css/style.css">
   <!--//internal css//-->
   <style>
-    #research-introduction p{
+    #research-introduction p {
       text-align: right;
       font-size: 18px;
       margin-right: 20px;
       margin-top: 15px;
+      margin-bottom: 20px;
     }
 
     main h2 {
@@ -57,12 +59,26 @@
       border-radius: 10px;
       padding-bottom: 0px;
     }
-    .research h3{
+
+    .research figure figcaption {
+      font-style: italic;
+      text-align: center;
+    }
+
+    .research figure img {
+      width: 500px;
+      height: 300px;
+      object-fit: contain;
+    }
+
+    .research h3 {
       margin-bottom: 20px;
     }
-    .researched{
+
+    .researched {
       margin-right: 60px;
     }
+
     .features {
       background-color: whitesmoke;
       font-size: 20px;
@@ -70,6 +86,13 @@
 
     section {
       background-color: whitesmoke;
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+    }
+
+    section p {
+      text-align: center;
+      margin-top: 20px;
     }
   </style>
 
@@ -126,24 +149,22 @@
       <h2 class="heading">Home Page</h2>
       <div class="research">
         <div class="researched">
-          <h3>Reference</h3><br>
+          <h3> Reference</h3>
           <figure>
-            <img src="../../assets/images/Research-Photos/referencedhomepage.png" alt="referencedhomepage"
-              style="width:500px; height:300px;"> <br>
-            <figcaption style="font-style:italic; text-align: center;"> fig: referenced home page</figcaption>
+            <img src="../../assets/images/Research-Photos/referencedhomepage.png" alt="referencedhomepage"> <br>
+            <figcaption> fig: referenced home page</figcaption>
           </figure>
         </div>
         <div class="result">
-          <h3> Result</h3><br>
+          <h3> Result</h3>
           <figure>
-            <img src="../../assets/images/Research-Photos/homepage.png" alt="ourhomepage"
-              style="width:500px; height:300px;"> <br>
-            <figcaption style="font-style:italic; text-align:center;"> fig:our home page</figcaption> <br>
-          </figure><br>
+            <img src="../../assets/images/Research-Photos/homepage.png" alt="ourhomepage"> <br>
+            <figcaption> fig:our home page</figcaption> <br>
+          </figure>
         </div>
       </div>
-      <!--//description of 1st research//-->
-      <p style="text-align: center;">
+      <!-- first reference description  -->
+      <p>
         The top section of our home page was influenced by the website of Melbourne Watch. <br>
         We were highly inspired by the topmost section of the page.<br>
         So,we used the 'Marquee' tag to display the features such as free shipping, <br>
@@ -156,44 +177,39 @@
           <u> Click here! </u></a>
       </p>
     </section>
-
     <!--//Reference no.2//-->
     <section>
-      <h2 class="heading"> Product Page</h2>
+      <h2 class="heading">Product Page</h2>
       <div class="research">
         <div class="researched">
           <h3> Reference</h3>
           <figure>
-            <img src="../../assets/images/Research-Photos/productpagereferenced.png" alt="referencedproductpage"
-              style="width:550px; height:300px;"><br>
-            <figcaption style="font-style:italic; text-align: center;"> fig:referenced product page</figcaption>
+            <img src="../../assets/images/Research-Photos/productpagereferenced.png" alt="referencedproductpage"><br>
+            <figcaption> fig:referenced product page</figcaption>
           </figure>
         </div>
         <div class="result">
           <h3> Result</h3>
           <figure>
-            <img src="../../assets/images/Research-Photos/ourproductpage.png" alt="ourproductpage"
-              style="width:500px; height:300px;">
-            <figcaption style="font-style:italic; text-align: center;"> fig: our product page</figcaption>
+            <img src="../../assets/images/Research-Photos/ourproductpage.png" alt="ourproductpage">
+            <figcaption> fig: our product page</figcaption>
           </figure>
         </div>
       </div>
+      <p>
+        Our product page was highly inspired by Nike's website.<br>
+        The minimalist and elegant design caught our eyes on <br>
+        displaying the products so we decided to build something similar.<br>
+        We used colour palettes and also added the options like "Coming Soon",<br>
+        "Just In" and "Most Purchased" options. You can also rate <br>
+        our products by the number of stars. Here's the link to Nike's website that was <br>
+        the inspiration for our product page.
+        <a href="https://www.nike.com/in/w/womens-shoes" style="color: #1a0dab; text-decoration: none;"
+          onmouseover="this.style.color='#0bcdf8'" onmouseout="this.style.color='#1a0dab'"
+          onclick="this.style.color='#660099'"> <u>Click here! </u></a>
+        <!--//inline css for changing colour on hovering and visited link//-->
+      </p>
     </section>
-    <p style="text-align: center" ;>
-      Our product page was highly inspired by Nike's website.<br>
-      The minimalist and elegant design caught our eyes on <br>
-      displaying the products so we decided to build something similar.<br>
-      We used colour palettes and also added the options like "Coming Soon",<br>
-      "Just In" and "Most Purchased" options. You can also rate <br>
-      our products by the number of stars. Here's the link to Nike's website that was <br>
-      the inspiration for our product page.
-      <a href="https://www.nike.com/in/w/womens-shoes" style="color: #1a0dab; text-decoration: none;"
-        onmouseover="this.style.color='#0bcdf8'" onmouseout="this.style.color='#1a0dab'"
-        onclick="this.style.color='#660099'"> <u>Click here! </u></a>
-      <!--//inline css for changing colour on hovering and visited link//-->
-    </p>
-    </section>
-
 
     <!--//Reference no. 3//-->
     <section>
@@ -202,20 +218,18 @@
         <div class="researched">
           <h3> Reference</h3>
           <figure>
-            <img src="../../assets/images/Research-Photos/blogreferenced.png" alt="referencedblogpage"
-              style="width:600px; height:300px;"> <br>
-            <figcaption style="font-style:italic; text-align: center;"> fig:referenced blog page</figcaption>
+            <img src="../../assets/images/Research-Photos/blogreferenced.png" alt="referencedblogpage"> <br>
+            <figcaption> fig:referenced blog page</figcaption>
           </figure>
         </div>
         <div class="result">
           <h3> Result</h3>
           <figure>
-            <img src="../../assets/images/Research-Photos/ourblogpage.png" alt="ourblogpage"
-              style="width:500px; height:300px;"><br>
-            <figcaption style="font-style:italic; text-align: center;"> fig:our blog page</figcaption>
+            <img src="../../assets/images/Research-Photos/ourblogpage.png" alt="ourblogpage"><br>
+            <figcaption> fig:our blog page</figcaption>
         </div>
       </div>
-      <p style="text-align: center">
+      <p>
         We referenced the website GeekForGeeks for our blog page.<br>
         Whilst searching and learning more about html, css and javascript,<br>
         we came across the page of GeeksforGeeks. We were inspired on creating a table to explain<br>
@@ -238,21 +252,19 @@
         <div class="researched">
           <h3> Reference</h3>
           <figure>
-            <img src="../../assets/images/Research-Photos/aboutuspagereferenced.png" alt="referencedabuspage"
-              style="width:500px; height:300px;"><br>
-            <figcaption style="font-style:italic; text-align: center;"> fig:referenced about us page</figcaption>
+            <img src="../../assets/images/Research-Photos/aboutuspagereferenced.png" alt="referencedabuspage"><br>
+            <figcaption> fig:referenced about us page</figcaption>
           </figure>
         </div>
         <div class="result">
           <h3> Result</h3>
           <figure>
-            <img src="../../assets/images/Research-Photos/ouraboutuspage.png" alt="ourabuspage"
-              style="width:500px; height:300px;"><br>
-            <figcaption style="font-style:italic; text-align: center;"> fig:about us page</figcaption>
+            <img src="../../assets/images/Research-Photos/ouraboutuspage.png" alt="ourabuspage"><br>
+            <figcaption> fig:about us page</figcaption>
           </figure>
         </div>
       </div>
-      <p style="text-align:center">
+      <p>
         The about us page of the company Avi&Co was the inspiration for our about us page.<br>
         We were particularly drawn to how we could share our story, goals and mission on <br>
         customers satisfaction and the commitment to providing them with the best products possible and that <br>
@@ -272,20 +284,18 @@
         <div class="researched">
           <h3> Reference</h3>
           <figure>
-            <img src="../../assets/images/Research-Photos/footerreferenced.png" alt="referencedfooter"
-              style="width:500px; height:300px;"><br>
-            <figcaption style="font-style:italic; text-align: center;"> fig:Referenced Footer</figcaption>
+            <img src="../../assets/images/Research-Photos/footerreferenced.png" alt="referencedfooter"><br>
+            <figcaption> fig:Referenced Footer</figcaption>
         </div>
         <div class="result">
           <h3> Result</h3>
           <figure>
-            <img src="../../assets/images/Research-Photos/ourfooter.png" alt="ourfooter"
-              style="width:500px; height:300px;"><br>
-            <figcaption style="font-style:italic; text-align: center;"> fig:Our Footer</figcaption>
+            <img src="../../assets/images/Research-Photos/ourfooter.png" alt="ourfooter"><br>
+            <figcaption> fig:Our Footer</figcaption>
           </figure>
         </div>
       </div>
-      <p style="text-align:center"> The footer part of our page was inspired by the site 'The Project'.<br>
+      <p> The footer part of our page was inspired by the site 'The Project'.<br>
         We were influenced by the design and created something similar with necessary changes. <br>
         We have listed the necessary details like our information which consists of our location,<br>
         Help& Support where a customer can track their order,<br>
