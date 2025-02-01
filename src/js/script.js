@@ -2,7 +2,9 @@
 //selection of element
 let shopNowButton = document.getElementById("shop-now");
 let newsLetterInput = document.getElementById("newsletter-input");
-let newsLetterMessageP = document.getElementById("message-for-newsletter-validation");
+let newsLetterMessageP = document.getElementById(
+  "message-for-newsletter-validation"
+);
 console.log(newsLetterMessageP);
 //shop now button function
 function shopNowButtonEvent() {
@@ -12,7 +14,7 @@ function shopNowButtonEvent() {
 // buyNow Button
 function buyNowButton() {
   open("./src/html/product.html");
-};
+}
 //newsletter input field validation
 function newsLetterValidation() {
   var newsLetterInputValue = newsLetterInput.value;
@@ -31,11 +33,13 @@ function newsLetterValidation() {
     newsLetterMessageP.innerText = "Thank You For Subscribe";
   }
 }
-// Product Page 
+// Product Page
+let cart = 0;
 
-
-
-
+function addToCart() {
+  cart++;
+  alert("Added To Cart Succesfully" + "      " + "🛒" + cart);
+}
 // About us page
 //Feedback-Form validation
 function validateForm() {
@@ -44,10 +48,13 @@ function validateForm() {
   const email = document.getElementById("Email").value; //Select HTML elemens with the id attribute set to "Email"
   const suggestion = document.getElementById("suggestion").value; //Select HTML elemens with the id attribute set to "Suggestion"
   console.log(firstname, lastname, email, suggestion); //It is used for debugging or viewing variable values
-
-  if (firstname == "" || lastname == "" || suggestion == "" || email=="") {
+  if (firstname == "" || lastname == "" || suggestion == "" || email == "") {
     alert("Input cannot be empty");
-  } if(firstname.length <= 3 || lastname.length <= 3 || email.length < 10){
+  } else if (
+    firstname.length <= 3 ||
+    lastname.length <= 3 ||
+    email.length < 10
+  ) {
     alert("Enter Valid Data");
   } else {
     alert("Thank you");
