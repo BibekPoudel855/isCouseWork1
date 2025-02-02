@@ -33,13 +33,6 @@ function newsLetterValidation() {
     newsLetterMessageP.innerText = "Thank You For Subscribe";
   }
 }
-// Product Page
-let cart = 0;
-
-function addToCart() {
-  cart++;
-  alert("Added To Cart Succesfully" + "      " + "🛒" + cart);
-}
 // About us page
 //Feedback-Form validation
 function validateForm() {
